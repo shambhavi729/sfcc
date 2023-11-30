@@ -1,0 +1,9 @@
+<isdecorate template="common/layout/page">
+ <div >
+    <div class="user-details">${Resource.msg(" Employee Details")} </div>
+    <div class="eId">EmpID: "${pdict.empId}"</div>
+    <div class="fname">First Name: "${pdict.fname}"</div>
+    <div class="lname">Last Name: "${pdict.lname}"</div>
+    <div class="cpy">company: "${pdict.company}"</div>
+    </div>
+</isdecorate>

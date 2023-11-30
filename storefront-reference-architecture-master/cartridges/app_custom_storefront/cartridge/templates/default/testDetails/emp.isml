@@ -1,0 +1,17 @@
+<isdecorate template="common/layout/page">
+
+<div>
+    <form action="Employee-SaveDetails"  method="POST" name="contact-us">
+    <div class="Details">
+    <div >
+    <input type="text" required  placeholder="enter Emp Id" id="empId" name="Emp_id" />
+    <input type="text" required  placeholder="enter First Name" id="fname" name="emp_firstName" />
+    <input type="text" required placeholder="enter last Name" id="lname" name="emp_lastName"/>
+    <input type="text" required  placeholder="enter company" id="company" name="company">
+    <input type="submit" required   id="empSubmit" name="EmpSubmit">
+    </div>
+    
+    </div>
+    </form>
+</div>
+</isdecorate>
